@@ -1,0 +1,70 @@
+.formbox {
+    background-color: rgb(17, 137, 223);
+    height: 300px;
+    width: 450px;
+    border: 1px rgb(0, 0, 0);
+    font-size: 2ch;
+    margin-left: auto;
+    margin-right: auto;
+
+    
+} 
+
+.row {
+    background-color: rgb(17, 137, 223);
+    height: 150px;
+    width: 500px;
+    font-size: 1ch;
+} 
+.button{
+  appearance:none;
+  -webkit-appearance:none;
+  padding:10px;
+  border:none;
+  background-color:chocolate;
+  color:#fff;
+  font-weight:400;
+  border-radius:5px;
+}
+
+ .formbox2 {
+        background-color: rgb(17, 137, 223);
+        height: 600px;
+        width: 650px;
+        border: 1px rgb(0, 0, 0);
+        font-size: 2ch;
+        margin-left: auto;
+        margin-right: auto;
+        
+} 
+body{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.listes{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width:fit-content;
+
+}
+.ajout{
+     background-color:hotpink;
+    height: 500px;
+    width: 500px;
+    font-size: 1ch;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    border-radius: 5px;
+    box-shadow: 6px;
+}
+label{
+    width:300px;
+    display: inline-block;
+}
+input[type="text"]{
+  margin:6px 0;
+  box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+  border-radius:10px;
+}

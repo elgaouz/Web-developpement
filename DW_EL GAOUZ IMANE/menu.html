@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
+<body style="background-color:palevioletred">
+    <h1><u><b>Menu</u></b></h1>
+    <div class="listes">
+    <style>
+            ul {
+            padding:0;
+            margin:0;
+            list-style-type:none;
+            }
+            li {
+            margin-left:2px;
+            float:left; /*pour IE*/
+            }
+            ul li a {
+            display:block;
+            float:left;   
+            width:100px;
+            background-color:rgb(90, 8, 66);
+            color:  #ffffff;
+            text-decoration:none;
+            text-align:center;
+            padding:5px;
+            border:2px solid;
+            /pour avoir un effet "outset" avec IE :/
+            border-color:#DCDCDC #696969 #696969 #DCDCDC;
+            }
+            ul li a:hover {
+            background-color:rgb(243, 192, 240);
+            border-color:#696969 #DCDCDC #DCDCDC #696969;
+            } 
+    </style>
+    <ul>
+    <li><a href="lister.php" target="frame-name">Lister</a></li>
+    <li><a href="ajouter.php" target="frame-name">Ajouter</a></li>
+    <li><a href="rechercher.php" target="frame-name">Rechercher</a></li>
+    </ul>
+    </div>
+</body>
+</html>
